@@ -12,7 +12,7 @@ describe('Searcher', () => {
         });
         it('simple2', () => {
             let s = new Searcher('Helloello');
-            assert.deepEqual(s.indexOf('ello'), [1, 5]);
+            assert.deepEqual(s.indexOf('ello'), [5, 1]);
         });
         it('simple3', () => {
             let s = new Searcher('Helloello');
