@@ -1,1 +1,1 @@
-module.exports = require(./lib/searcher)
+module.exports = require('./lib/searcher')

@@ -1,13 +1,13 @@
 {
   "name": "searcher",
   "version": "1.0.0",
-  "description": "indexOf",
+  "description": "indexOf method",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./test"
   },
   "author": "YaroslavGaponov <yaroslavgaponov@gmail.com>",
   "license": "ISC"
